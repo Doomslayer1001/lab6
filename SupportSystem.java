@@ -36,11 +36,12 @@ public class SupportSystem
 
         printWelcome();
         //question 10 the return false if  the argument equal to null
+        //
         while(!finished) {
             String input = reader.getInput();
             input = input.trim();//question 8
             input = input.toLowerCase();//question 9
-            //question 11
+            //question 11:
             if(input.equals("bye")) {
                 finished = true;
             }
