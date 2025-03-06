@@ -35,12 +35,13 @@ public class SupportSystem
         boolean finished = false;
 
         printWelcome();
-
+        //question 10 the return false if  the argument equal to null
         while(!finished) {
             String input = reader.getInput();
-            input = input.trim();
-            input = input.toLowerCase();
-            if(input.startsWith("bye")) {
+            input = input.trim();//question 8
+            input = input.toLowerCase();//question 9
+            //question 11
+            if(input.equals("bye")) {
                 finished = true;
             }
             else {
