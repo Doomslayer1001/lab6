@@ -12,7 +12,7 @@ public class RandomTester
     // instance variables - replace the example below with your own
     private Random rand_gen;
     private ArrayList<String> responses;
-
+    
     /**
      * Constructor for objects of class RandomTester
      */
