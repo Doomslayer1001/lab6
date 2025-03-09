@@ -7,10 +7,8 @@ import java.util.HashMap;
  */
 public class MapTester
 {
-    // 24 HashMap is use for implamiting the base of the map interface and provides
-    //25)
-    //26)
-    //27)
+    //24) HashMap is use for implamiting the base of the map interface and provides
+    //27)the class is created
     //28)update the value
     private HashMap<String,String> contact;
 

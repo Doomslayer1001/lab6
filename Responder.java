@@ -11,6 +11,18 @@ import java.util.HashMap;
  */
 public class Responder
 {
+    //34: what make the  hashset and arraylist simmilar is that they must be synchronized, it can include null
+    //the diffrence is that array has a capacity to store the element while the hashset does not
+    //35: public Hashset<String>() getInput();
+    //      public void msg(){
+    //     System.out.println("Hello")
+    //      String input = reader.getInput();
+    //        input = input.trim();
+    //        input = input.toLowerCase();
+    //     split.ImputLine(word);
+    //}
+    //36) by adding the type of break you want like the colon ot :
+    //37
     private Random rand_gen;
     private ArrayList<String> responses;
     private HashMap<String,String> responsesMap;
@@ -31,7 +43,7 @@ public class Responder
         responsesMap.put("steve","I am  Steve");
     }
     private String pickDefaultResponse(){
-        return "no idea"
+        return "no idea";
     }
     
     /**
@@ -45,6 +57,7 @@ public class Responder
         if(response == null){
             response = pickDefaultResponse();
         }
+        return response;
     }
     /**
     * 22)
