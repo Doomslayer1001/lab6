@@ -19,11 +19,17 @@ public class Responder
     //      String input = reader.getInput();
     //        input = input.trim();
     //        input = input.toLowerCase();
-    //     split.ImputLine(word);
+    //    String WordArray = split.ImputLine(word);
+    // Systrm.out.println (word);
     //}
     //36) by adding the type of break you want like the colon ot :
-    //37
-    private Random rand_gen;
+    //37) the result for hashset will be unique compare to Arraylist that will
+    //handle duplicates.
+    //38) if we added a space it will add those empty space in the return
+    //39)the code replace the first  four lines of the code and the Arrays class
+    //the method they can use are staticc and int.
+    //40)static void, static int ,static boolean
+     private Random rand_gen;
     private ArrayList<String> responses;
     private HashMap<String,String> responsesMap;
     /**
